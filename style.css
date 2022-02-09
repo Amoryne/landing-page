@@ -1,0 +1,165 @@
+body {
+
+max-width: 90%;
+margin-left: 120px;
+margin-right: 120px;
+margin-top: 70px;
+padding: 20px;
+border: 1px solid pink;
+
+
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	width: 410px;
+	height: 100px;
+	list-style-type: none;
+
+
+
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-family: sans-serif;
+	letter-spacing: 0.5px;
+
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+    margin-top: 0%;
+
+}
+
+.logoentete{
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	left: 30px;
+}
+
+a.demo
+{
+	background-color: white;
+	border: thin solid orangered;
+	display: block;
+	width:150px;
+	height: 20px;
+	padding: 10px;
+	text-decoration: none;
+	color: orangered;
+	text-align: center;
+	border-radius: 10px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-family: lucida, sans-serif ;
+
+
+}
+
+a:hover.demo
+{
+	background-color: orangered;
+	color: white;
+	border-color: white;
+}
+
+.entete
+{
+	display: block;
+	float: right;
+		width: 400px;
+	height: 400px;
+	margin-left: auto;
+	margin-bottom: 150px;
+
+	
+}
+.titre {
+	font-size: 70px;
+	font-family: sans-serif;
+	font-weight: bold;
+	width: auto;
+	line-height: 85px;
+	padding-left: 20px;
+	margin-top: 8px;
+	margin: 0%;
+	padding-right: 15px;
+	clear: none;
+
+}
+.soustitre{
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: lighter;
+	color: slategray;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	padding-left: 22px;
+	letter-spacing: 1px;
+
+	
+}
+
+
+div {
+	width: auto;
+}
+
+a.try1
+{
+	background-color: orangered;
+	border: thin solid orangered;
+	display: block;
+	width:200px;
+	height: 40px;
+	
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	font-family: lucida, sans-serif ;
+	font-size: 20px;
+	padding-top: 10px;
+	letter-spacing: -1px;
+    margin-left: 20px;
+
+   
+
+}
+
+a:hover.try1
+{
+	background-color: white;
+	color: orangered;
+	border-color: orangered;
+}
+
+.web{
+
+
+	display: inline-block;
+	margin-left: 250px;
+	position: absolute;
+	top: 560px;
+	left: 120px;
+
+
+
+}
+
+.graphique{
+	width: 900px;
+	height: 600px;
+	display: block;
+	padding: 50px;
+	background-color: orangered;
+
+    
+}
+
